@@ -1,0 +1,29 @@
+{
+  "name": "forge-bootstrap-theme",
+  "version": "1.0.0",
+  "description": "Autodesk Forge theme for Bootstrap 4.",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [
+    "autodesk",
+    "forge",
+    "bootstrap",
+    "theme"
+  ],
+  "author": "Petr Broz <petr.broz@autodesk.com>",
+  "repository": "https://github.com/petrbroz/forge-bootstrap-theme",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
