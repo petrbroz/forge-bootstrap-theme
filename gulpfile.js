@@ -24,10 +24,10 @@ function build() {
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer({ browsers })]))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('docs/'))
         .pipe(clean())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('docs/'))
 }
 
 function watch() {
