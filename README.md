@@ -1,15 +1,21 @@
 # forge-bootstrap-theme
 
 [Autodesk Forge](https://forge.autodesk.com) theme for Bootstrap 4.
-Live preview available at https://petrbroz.github.io/forge-bootstrap-theme.
+
+## Live Preview
+
+- https://petrbroz.github.io/forge-bootstrap-theme?var=dark&min=true
+- https://petrbroz.github.io/forge-bootstrap-theme?var=dark&min=false
+- https://petrbroz.github.io/forge-bootstrap-theme?var=light&min=true
+- https://petrbroz.github.io/forge-bootstrap-theme?var=light&min=false
 
 ## Usage
 
 Replace the Bootstrap CSS in your webpage with one of the following options:
-- light variant: `<link rel="stylesheet" src="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-light.css">`
-- light variant (minified): `<link rel="stylesheet" src="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-light.min.css">`
-- dark variant: `<link rel="stylesheet" src="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-dark.css">`
-- dark variant (minified): `<link rel="stylesheet" src="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-dark.min.css">`
+- light variant: `<link rel="stylesheet" href="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-light.css">`
+- light variant (minified): `<link rel="stylesheet" href="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-light.min.css">`
+- dark variant: `<link rel="stylesheet" href="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-dark.css">`
+- dark variant (minified): `<link rel="stylesheet" href="https://petrbroz.github.io/forge-bootstrap-theme/forge-bootstrap-dark.min.css">`
 
 Make sure that the rest of the Bootstrap dependencies are still loaded towards the end of the document:
 
